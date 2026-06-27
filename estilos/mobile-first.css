@@ -7,10 +7,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
-    width: 100vw;
-}
-
 body{
     background-color: blueviolet;
     position: absolute;
@@ -26,15 +22,16 @@ main {
     transform: translate(-50%, -50%);
     width: 70vw;
     background-color: white;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.49);
     border-radius: 10px;
     padding-bottom: 5px;
-  
+
     
 }
 
 main img{
     width: 70vw;
+    border-radius: 10px 10px 0px 0px;
+
 }
 
 main h1{
@@ -55,6 +52,10 @@ main p#p_username, p#p_password{
     background-color: darkviolet;
     border-radius: 5px;
     margin: 10px;
+    padding: 1px;
+    
+    
+
 }
 
 
@@ -72,3 +73,4 @@ main p#p_entrar{
     color: white;
     
 }
+
